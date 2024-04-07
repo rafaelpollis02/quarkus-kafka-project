@@ -1,0 +1,4 @@
+br/com/kafka/PersonConsumer.class
+service/PersonService.class
+repository/PersonRepository.class
+domain/Person.class
