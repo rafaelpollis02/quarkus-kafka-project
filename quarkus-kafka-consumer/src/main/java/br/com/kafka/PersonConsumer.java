@@ -26,6 +26,6 @@ public class PersonConsumer {
             person.setName(json.getString("name"));
 
             personService.create(person);
-            System.out.println("Mensagem enviada ao Kafka: " + person.getId() + " : " + person.getName());
+            System.out.println("Mensagem consumida do Kafka: " + person.getId() + " : " + person.getName());
     }
 }
